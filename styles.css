@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    min-height: 100%;
+    position: relative;
+
+}
+
+body{
+    margin:0;
+    
+}
+
+
+
+.wrapper{
+        margin: 0;
+        margin-bottom: 70px;
+}
+
+header{
+    color: rgb(255, 0, 0);
+}
+
+header h1{
+    font-size: 3rem;
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+main img{
+        height: 400px;
+        float: left;
+        padding: 40px;
+        
+        height: 400px;
+        width: 400px;
+        background-repeat: no-repeat;
+        background-position: 10%;
+        border-radius: 200px;
+        background-size: 100% auto;
+        top: 10%;
+        transform: translate(-0% ,30%);
+        }
+
+
+
+section#inicio h1{
+                padding: 40px;
+                font-size: 36px;
+                transform: translate(0%,70%);
+                color: white;
+                font-style: oblique;
+                font-family: 'Courier New', Courier, monospace;    
+                font-weight: 300;    
+                
+                }       
+
+section#inicio p{
+    padding: 40px;
+    font-size: 36px;
+    transform: translate(0%,10%);
+    color: white;
+font-style: oblique;
+font-family: 'Courier New', Courier, monospace;    
+font-weight: 300;         
+
+                 }                
+
+
+footer{
+   background-color: darkorange;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    text-align: center;
+    }
+    
+    li {
+    display: inline;
+    text-align: center;
+    margin: 0 50px 0 0;
+    font-size: 200%;
+    }
+    
+    li a {
+    display: inline;
+    color: rgb(223, 226, 23);
+    padding: 14px16px;
+    text-decoration: none;
+    }
+    
+    li a:hover {
+    background-color: green;
+    
+    }

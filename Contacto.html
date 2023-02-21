@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Ezequiel Goudard</title>
+    <link rel="stylesheet" href="styleContacto.css">
+    
+    
+</head>
+<body>
+    <header>
+        <img src="yo.jpg">
+        <h1>Curriculum Vitae Ezequiel Goudard</h1>          
+       <ul>
+            <section id="menu">
+            <li> <a href="./index.html">Inicio</a></li>
+            <li> <a href="./Estudio.html">Estudios</a></li>
+            <li> <a href="./Experiencia.html">Experiencia</a></li>
+            <li> <a href="./Habilidades.html">Habilidades</a></li>
+            <li> <a href="./Contacto.html">Contacto</a></li>
+            </section>
+        </ul>
+        <hr>
+    </header>
+    <main>
+    <div class="whatsapp">
+        <h2>WhatsApp</h2>
+        <img class="btn-whatsapp" src="whatsapp.jpg" width="64" height="64" alt="Whatsapp" onclick="window.location.href='https://wa.me/540111534233105?text=Hola!%20Estoy%20interesado%20en%20tu%20servicio'">
+    </div>
+    
+    <div class="facebook"> 
+        <h2>Facebook</h2>
+        <img src="qrcode_www.facebook.com.png" >
+    </div> 
+
+    <div class="instagram">
+        <h2>Instagram</h2>
+        <img src="qr instagram.png">   
+    </div>
+    
+    <div class="mail">
+        <h2>Mail</h2>
+        <a href="mailto: ezequiel.aaron.goudard@gmail.com> "</a>
+        <img src="mail.png">
+    </div>
+    
+    <div class="formuario">
+        <form action="/enviar-mensaje" method="POST">
+        <h2>Complete el formulario para enviame un mensaje</h2>
+        <label for="nombre">Nombre:</label><br />
+        <input type="text" id="nombre" name="nombre" /><br />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" /><br />
+        <label for="mensaje">Mensaje:</label><br />
+        <textarea id="mensaje" name="mensaje"></textarea><br />
+        <input type="submit" value="Enviar mensaje" />
+      </form>
+    
+    </div>
+    
+    </main>
+
+   
+</body>
+</html>
